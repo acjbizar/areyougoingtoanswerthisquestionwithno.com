@@ -1,0 +1,27 @@
+{
+  "name": "areyougoingtoanswerthisquestionwithno.com",
+  "version": "1.0.0",
+  "description": "Are you going to answer this question with “no”?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acjbizar/areyougoingtoanswerthisquestionwithno.com.git"
+  },
+  "keywords": [
+    "art"
+  ],
+  "author": "ACJ",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/acjbizar/areyougoingtoanswerthisquestionwithno.com/issues"
+  },
+  "homepage": "https://github.com/acjbizar/areyougoingtoanswerthisquestionwithno.com#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.7"
+  }
+}
