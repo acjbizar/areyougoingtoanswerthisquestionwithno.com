@@ -92,18 +92,7 @@ $r .= <<<HTML
 HTML;
 $r .= '</head>';
 $r .= '<body>';
-$r .= <<<HTML
-<div id="fb-root"></div>
-<script>/*<![CDATA[*/(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=122924311087219";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));/*]]>*/</script>
-HTML;
 $r .= '<h1' . (empty($a) ? ' class="active"' : '') . '><a href="./">' . $title . '</a></h1>';
-$r .= '<div class="fb-like" data-href="http://areyougoingtoanswerthisquestionwithno.com/" data-send="false" data-layout="button_count" data-width="44" data-show-faces="false" data-font="arial"></div>';
 $r .= '<table><tbody><tr>';
 $r .= '<td' . ($a1 === 'yes' ? ' class="active"' : '') . '><a href="yes">Yes</a></td>';
 $r .= '<td' . ($a1 === 'no' ? ' class="active"' : '') . '><a href="no">No</a></td>';
