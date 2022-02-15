@@ -1,6 +1,7 @@
 :root {
   --c1: rgba(255, 0, 0);
   --c2: rgba(0, 0, 255);
+  text-rendering: optimizelegibility;
 }
 
 * {
@@ -16,6 +17,11 @@ a {
   display: block;
   padding: 24px;
   text-shadow: 0.0625em 0.0625em 0 var(--c1);
+}
+a:hover {
+  background: #000;
+  color: #fff;
+  text-shadow: 0.0625em 0.0625em var(--c2);
 }
 
 h1 {
@@ -47,27 +53,14 @@ td {
   text-align: center;
 }
 
-:root {
-  text-rendering: optimizelegibility;
-}
-
-a:hover {
-  background: #000;
-  color: #fff;
-  text-shadow: 0.0625em 0.0625em var(--c2);
-}
-
 .active {
   background: #000;
 }
-
 .active a {
   color: #fff;
   text-shadow: 0.0625em 0.0625em var(--c2);
-}
-
-.fb-like {
-  position: absolute !important;
-  right: 24px;
-  top: 24px;
+  /*    &:hover {
+        background: $white;
+        color: $black;
+      }*/
 }
