@@ -7,9 +7,7 @@ $description = 'A seemingly simple question, with at least two options provided.
 $title = 'Are you going to answer this question with “no”?';
 $url = 'https://areyougoingtoanswerthisquestionwithno.com/';
 $image = 'https://cdn.areyougoingtoanswerthisquestionwithno.com/icon-256x256.png';
-//$image = 'http://deidee.com/icon?size=12';
-// abbr: aygtatqwn
-// RU->2A=Q+Y/N
+$screenshot = 'https://netplasticism.com/images/screenshot-1024x768-89.jpg';
 $config = parse_ini_file(dirname(__DIR__, is_local() ? 2 : 1) . '/config.ini');
 
 if(is_local())
@@ -50,7 +48,7 @@ $r .= '<meta name="viewport" content="initial-scale=1.0, width=device-width">';
 $r .= '<meta itemprop="image" content="' . $image . '">';
 $r .= '<meta property="fb:admins" content="509248955">';
 $r .= '<meta property="og:description" content="' . $description . '">';
-$r .= '<meta property="og:image" content="' . $image . '">';
+$r .= '<meta property="og:image" content="' . $screenshot . '">';
 $r .= '<meta property="og:title" content="' . $title . '">';
 $r .= '<meta property="og:type" content="website">';
 $r .= '<meta property="og:url" content="' . $url . '">';
