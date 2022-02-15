@@ -60,6 +60,10 @@ $r .= '<link rel="icon" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAF
 $r .= '<link rel="shortlink" href="http://goo.gl/tGdev">';
 $r .= '<style>';
 $r .= file_get_contents('../src/css/style.css');
+$r .= ':root{';
+$r .= '--c1:rgb(' . $r0 . ', ' . $g0 . ', ' . $b0 . ');';
+$r .= '--c2:rgb(' . $r2 . ', ' . $g2 . ', ' . $b2 . ');';
+$r .= '}';
 $r .= '</style>';
 $r .= <<<HTML
 <script>
