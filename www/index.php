@@ -10,7 +10,7 @@ $image = 'https://cdn.areyougoingtoanswerthisquestionwithno.com/icon-256x256.png
 $screenshot = 'https://netplasticism.com/images/screenshot-1024x768-89.jpg';
 $config = parse_ini_file(dirname(__DIR__, is_local() ? 2 : 1) . '/config.ini');
 
-if(is_local())
+if(is_local() AND 1 === 2)
 {
     $db = new mysqli('localhost', 'root', NULL, 'mu');
 }
