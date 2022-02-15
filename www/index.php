@@ -59,12 +59,12 @@ $r .= '<link rel="canonical" href="' . $url . '">';
 $r .= '<link rel="icon" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIREREREREiIAAAAAAAASIgEiIiIiIBIiASIiIiIgEiIBIiIiIiASIgEiIiIiIBIiASIiIiIgEiIBIiIiIiASIgEiIiIiIBIiASIiIiIgEiIBIiIiIiASIgEREREREBIiAAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA">';
 $r .= '<link rel="shortlink" href="http://goo.gl/tGdev">';
 $r .= '<style>';
-//$r .= ':root{--c1: rgba(255, 0, 0);--c2: rgba(0, 0, 255);text-rendering:optimizelegibility}*{border:0;margin:0;outline:0;padding:0;text-decoration:none}a{color:#000;display:block;padding:24px;text-shadow:.0625em .0625em 0 var(--c1)}a:hover{background:#000;color:#fff;text-shadow:.0625em .0625em var(--c2)}h1{font-size:120px;font-size:15vmin;font-weight:normal;line-height:.8;padding:.2em;text-align:center}html{background:#fff;font:normal 16px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif}table{border-collapse:collapse;border-spacing:0;width:100%}td{font-size:144px;font-size:12vw;font-weight:bold;line-height:1;padding:.2em;text-align:center}.active{background:#000}.active a{color:#fff;text-shadow:.0625em .0625em var(--c2)}';
-$r .= file_get_contents('../src/css/style.css');
 $r .= ':root{';
 $r .= '--c1:rgb(' . $r0 . ', ' . $g0 . ', ' . $b0 . ');';
 $r .= '--c2:rgb(' . $r2 . ', ' . $g2 . ', ' . $b2 . ');';
 $r .= '}';
+//$r .= ':root{--c1: rgba(255, 0, 0);--c2: rgba(0, 0, 255);text-rendering:optimizelegibility}*{border:0;margin:0;outline:0;padding:0;text-decoration:none}a{color:#000;display:block;padding:24px;text-shadow:.0625em .0625em 0 var(--c1)}a:hover{background:#000;color:#fff;text-shadow:.0625em .0625em var(--c2)}h1{font-size:120px;font-size:15vmin;font-weight:normal;line-height:.8;padding:.2em;text-align:center}html{background:#fff;font:normal 16px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif}table{border-collapse:collapse;border-spacing:0;width:100%}td{font-size:144px;font-size:12vw;font-weight:bold;line-height:1;padding:.2em;text-align:center}.active{background:#000}.active a{color:#fff;text-shadow:.0625em .0625em var(--c2)}';
+$r .= file_get_contents('../src/css/style.css');
 $r .= '</style>';
 $r .= <<<HTML
 <script>
